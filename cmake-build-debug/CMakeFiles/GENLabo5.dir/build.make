@@ -56,32 +56,62 @@ include CMakeFiles/GENLabo5.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/GENLabo5.dir/flags.make
 
-CMakeFiles/GENLabo5.dir/main.cpp.obj: CMakeFiles/GENLabo5.dir/flags.make
-CMakeFiles/GENLabo5.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\faval\CLionProjects\GENLabo5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GENLabo5.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GENLabo5.dir\main.cpp.obj -c C:\Users\faval\CLionProjects\GENLabo5\main.cpp
+CMakeFiles/GENLabo5.dir/src/Customer.cpp.obj: CMakeFiles/GENLabo5.dir/flags.make
+CMakeFiles/GENLabo5.dir/src/Customer.cpp.obj: ../src/Customer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\faval\CLionProjects\GENLabo5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GENLabo5.dir/src/Customer.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GENLabo5.dir\src\Customer.cpp.obj -c C:\Users\faval\CLionProjects\GENLabo5\src\Customer.cpp
 
-CMakeFiles/GENLabo5.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GENLabo5.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\faval\CLionProjects\GENLabo5\main.cpp > CMakeFiles\GENLabo5.dir\main.cpp.i
+CMakeFiles/GENLabo5.dir/src/Customer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GENLabo5.dir/src/Customer.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\faval\CLionProjects\GENLabo5\src\Customer.cpp > CMakeFiles\GENLabo5.dir\src\Customer.cpp.i
 
-CMakeFiles/GENLabo5.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GENLabo5.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\faval\CLionProjects\GENLabo5\main.cpp -o CMakeFiles\GENLabo5.dir\main.cpp.s
+CMakeFiles/GENLabo5.dir/src/Customer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GENLabo5.dir/src/Customer.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\faval\CLionProjects\GENLabo5\src\Customer.cpp -o CMakeFiles\GENLabo5.dir\src\Customer.cpp.s
+
+CMakeFiles/GENLabo5.dir/src/Movie.cpp.obj: CMakeFiles/GENLabo5.dir/flags.make
+CMakeFiles/GENLabo5.dir/src/Movie.cpp.obj: ../src/Movie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\faval\CLionProjects\GENLabo5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GENLabo5.dir/src/Movie.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GENLabo5.dir\src\Movie.cpp.obj -c C:\Users\faval\CLionProjects\GENLabo5\src\Movie.cpp
+
+CMakeFiles/GENLabo5.dir/src/Movie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GENLabo5.dir/src/Movie.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\faval\CLionProjects\GENLabo5\src\Movie.cpp > CMakeFiles\GENLabo5.dir\src\Movie.cpp.i
+
+CMakeFiles/GENLabo5.dir/src/Movie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GENLabo5.dir/src/Movie.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\faval\CLionProjects\GENLabo5\src\Movie.cpp -o CMakeFiles\GENLabo5.dir\src\Movie.cpp.s
+
+CMakeFiles/GENLabo5.dir/src/main.cpp.obj: CMakeFiles/GENLabo5.dir/flags.make
+CMakeFiles/GENLabo5.dir/src/main.cpp.obj: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\faval\CLionProjects\GENLabo5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GENLabo5.dir/src/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GENLabo5.dir\src\main.cpp.obj -c C:\Users\faval\CLionProjects\GENLabo5\src\main.cpp
+
+CMakeFiles/GENLabo5.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GENLabo5.dir/src/main.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\faval\CLionProjects\GENLabo5\src\main.cpp > CMakeFiles\GENLabo5.dir\src\main.cpp.i
+
+CMakeFiles/GENLabo5.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GENLabo5.dir/src/main.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\faval\CLionProjects\GENLabo5\src\main.cpp -o CMakeFiles\GENLabo5.dir\src\main.cpp.s
 
 # Object files for target GENLabo5
 GENLabo5_OBJECTS = \
-"CMakeFiles/GENLabo5.dir/main.cpp.obj"
+"CMakeFiles/GENLabo5.dir/src/Customer.cpp.obj" \
+"CMakeFiles/GENLabo5.dir/src/Movie.cpp.obj" \
+"CMakeFiles/GENLabo5.dir/src/main.cpp.obj"
 
 # External object files for target GENLabo5
 GENLabo5_EXTERNAL_OBJECTS =
 
-GENLabo5.exe: CMakeFiles/GENLabo5.dir/main.cpp.obj
+GENLabo5.exe: CMakeFiles/GENLabo5.dir/src/Customer.cpp.obj
+GENLabo5.exe: CMakeFiles/GENLabo5.dir/src/Movie.cpp.obj
+GENLabo5.exe: CMakeFiles/GENLabo5.dir/src/main.cpp.obj
 GENLabo5.exe: CMakeFiles/GENLabo5.dir/build.make
 GENLabo5.exe: CMakeFiles/GENLabo5.dir/linklibs.rsp
 GENLabo5.exe: CMakeFiles/GENLabo5.dir/objects1.rsp
 GENLabo5.exe: CMakeFiles/GENLabo5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\faval\CLionProjects\GENLabo5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable GENLabo5.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\faval\CLionProjects\GENLabo5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable GENLabo5.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GENLabo5.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

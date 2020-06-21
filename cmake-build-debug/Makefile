@@ -122,32 +122,86 @@ GENLabo5/fast:
 	$(MAKE) -f CMakeFiles\GENLabo5.dir\build.make CMakeFiles/GENLabo5.dir/build
 .PHONY : GENLabo5/fast
 
-main.obj: main.cpp.obj
+src/Customer.obj: src/Customer.cpp.obj
 
-.PHONY : main.obj
+.PHONY : src/Customer.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\GENLabo5.dir\build.make CMakeFiles/GENLabo5.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/Customer.cpp.obj:
+	$(MAKE) -f CMakeFiles\GENLabo5.dir\build.make CMakeFiles/GENLabo5.dir/src/Customer.cpp.obj
+.PHONY : src/Customer.cpp.obj
 
-main.i: main.cpp.i
+src/Customer.i: src/Customer.cpp.i
 
-.PHONY : main.i
+.PHONY : src/Customer.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\GENLabo5.dir\build.make CMakeFiles/GENLabo5.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Customer.cpp.i:
+	$(MAKE) -f CMakeFiles\GENLabo5.dir\build.make CMakeFiles/GENLabo5.dir/src/Customer.cpp.i
+.PHONY : src/Customer.cpp.i
 
-main.s: main.cpp.s
+src/Customer.s: src/Customer.cpp.s
 
-.PHONY : main.s
+.PHONY : src/Customer.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\GENLabo5.dir\build.make CMakeFiles/GENLabo5.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Customer.cpp.s:
+	$(MAKE) -f CMakeFiles\GENLabo5.dir\build.make CMakeFiles/GENLabo5.dir/src/Customer.cpp.s
+.PHONY : src/Customer.cpp.s
+
+src/Movie.obj: src/Movie.cpp.obj
+
+.PHONY : src/Movie.obj
+
+# target to build an object file
+src/Movie.cpp.obj:
+	$(MAKE) -f CMakeFiles\GENLabo5.dir\build.make CMakeFiles/GENLabo5.dir/src/Movie.cpp.obj
+.PHONY : src/Movie.cpp.obj
+
+src/Movie.i: src/Movie.cpp.i
+
+.PHONY : src/Movie.i
+
+# target to preprocess a source file
+src/Movie.cpp.i:
+	$(MAKE) -f CMakeFiles\GENLabo5.dir\build.make CMakeFiles/GENLabo5.dir/src/Movie.cpp.i
+.PHONY : src/Movie.cpp.i
+
+src/Movie.s: src/Movie.cpp.s
+
+.PHONY : src/Movie.s
+
+# target to generate assembly for a file
+src/Movie.cpp.s:
+	$(MAKE) -f CMakeFiles\GENLabo5.dir\build.make CMakeFiles/GENLabo5.dir/src/Movie.cpp.s
+.PHONY : src/Movie.cpp.s
+
+src/main.obj: src/main.cpp.obj
+
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\GENLabo5.dir\build.make CMakeFiles/GENLabo5.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles\GENLabo5.dir\build.make CMakeFiles/GENLabo5.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles\GENLabo5.dir\build.make CMakeFiles/GENLabo5.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +212,15 @@ help:
 	@echo ... GENLabo5
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/Customer.obj
+	@echo ... src/Customer.i
+	@echo ... src/Customer.s
+	@echo ... src/Movie.obj
+	@echo ... src/Movie.i
+	@echo ... src/Movie.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

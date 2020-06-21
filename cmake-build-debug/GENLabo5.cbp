@@ -80,7 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/faval/CLionProjects/GENLabo5/main.cpp">
+		<Unit filename="C:/Users/faval/CLionProjects/GENLabo5/src/Customer.cpp">
+			<Option target="GENLabo5"/>
+		</Unit>
+		<Unit filename="C:/Users/faval/CLionProjects/GENLabo5/src/Customer.h">
+			<Option target="GENLabo5"/>
+		</Unit>
+		<Unit filename="C:/Users/faval/CLionProjects/GENLabo5/src/Movie.cpp">
+			<Option target="GENLabo5"/>
+		</Unit>
+		<Unit filename="C:/Users/faval/CLionProjects/GENLabo5/src/Movie.h">
+			<Option target="GENLabo5"/>
+		</Unit>
+		<Unit filename="C:/Users/faval/CLionProjects/GENLabo5/src/Rental.h">
+			<Option target="GENLabo5"/>
+		</Unit>
+		<Unit filename="C:/Users/faval/CLionProjects/GENLabo5/src/main.cpp">
 			<Option target="GENLabo5"/>
 		</Unit>
 		<Unit filename="C:/Users/faval/CLionProjects/GENLabo5/CMakeLists.txt">
